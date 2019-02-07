@@ -1,0 +1,6 @@
+[run]
+omit = pandasglue/__version__.py
+
+[paths]
+source =
+    pandasglue
