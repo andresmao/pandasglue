@@ -59,6 +59,17 @@ df = pg.read_glue(sql_query,db_name,s3_output_bucket)
 print(df)
 
 ```
+query, db, s3_output, region=None, key=None, secret=None, profile_name=None
+
+***Parameters list:***
+
+* query: the SQL statement on Athena
+* db: database name.
+* s3_output: path of the S3 output folder (optional)
+* region: id of the AWS region, e.g us-west-1(optional)
+* key: AWS Access key (optional)
+* secret: AWS secret key (optional)
+* profile_name: AWS IAM profile (optional)
 
 **Write method:**
 
